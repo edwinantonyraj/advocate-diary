@@ -3,7 +3,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 // IMPORTANT: After you deploy the backend (see README-MOBILE.md), replace the
 // placeholder URL below with your real deployed URL, e.g.
 // https://advocate-diary.onrender.com
-const DEPLOYED_APP_URL = 'https://REPLACE-WITH-YOUR-DEPLOYED-URL.onrender.com';
+const DEPLOYED_APP_URL = 'https://advocate-diary.onrender.com';
 
 const config: CapacitorConfig = {
   appId: 'com.advocatediary.app',
