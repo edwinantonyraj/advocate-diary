@@ -111,7 +111,7 @@ export default function App() {
   const dueSoonCases = getDueSoonCases(appState.cases);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans antialiased selection:bg-amber-500 selection:text-slate-950">
+    <div className="min-h-screen w-full overflow-x-hidden bg-slate-50 text-slate-900 flex flex-col font-sans">
       {/* App Header */}
       <Header
         activeTab={activeTab}
@@ -127,7 +127,7 @@ export default function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-4 pt-4">
+      <main className="flex-1 w-full overflow-x-hidden px-3 pt-3 pb-24">
         {activeTab === 'cause-list' && (
           <DailyCauseList
             cases={appState.cases}
