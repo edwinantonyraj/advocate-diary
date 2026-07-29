@@ -15,7 +15,6 @@ import { CaseDetailsModal } from './components/CaseDetailsModal';
 import { AddCaseModal } from './components/AddCaseModal';
 import { DueSoonAlertModal } from './components/DueSoonAlertModal';
 import { EmailRemindersModal } from './components/EmailRemindersModal';
-import Dashboard from './components/dashboard/Dashboard';
 
 export default function App() {
   const [appState, setAppState] = useState<AppState>(() => loadAppState());
@@ -129,10 +128,6 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 w-full overflow-x-hidden px-3 pt-3 pb-24">
-        {activeTab === 'home' && (
-          <Dashboard />
-        )}
-        
         {activeTab === 'cause-list' && (
           <DailyCauseList
             cases={appState.cases}
