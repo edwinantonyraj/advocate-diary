@@ -1,0 +1,6 @@
+{
+  "name": "Advocate Diary",
+  "description": "Mobile case management, daily cause list, client directory, and hearing log system for legal practitioners with WP/Desktop import.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
